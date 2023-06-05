@@ -32042,16 +32042,16 @@ body *
 
 .box_v3_02
 {
-  background: url(https://humanwisdoms3.s3.eu-west-2.amazonaws.com/assets/svgs/tiles/backgrounds/topics_v3_01.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 12px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
 }
 
 .hr_style_v3_01
@@ -32157,5 +32157,11 @@ body *
 .pt10px
 {
   padding-top: 10px;
+}
+
+.fa 
+{
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: var(--fa-style,900) !important;
 }
 /* /version - 03 */
